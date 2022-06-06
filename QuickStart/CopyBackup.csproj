@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Spanner.Admin.Database.V1" Version="3.14.0-copybackup-01" />
+    <PackageReference Include="Google.Cloud.Spanner.Common.V1" Version="3.14.0-copybackup-01" />
+  </ItemGroup>
+
+</Project>
